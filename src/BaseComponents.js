@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const BaseGridList = styled.ul`
   list-style: none;
@@ -8,14 +8,13 @@ export const BaseGridList = styled.ul`
   grid-gap: 1rem;
 
   > li {
-
   }
 `
 
 export const Contents = styled.div`
-padding-left: 1.5rem;
-padding-right: 1.5rem;
-max-width: 70rem;
-margin-left: auto;
-margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
 `
