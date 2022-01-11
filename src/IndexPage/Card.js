@@ -1,11 +1,11 @@
-import React, { PureComponent } from "react"
-import PropTypes from "prop-types"
-import styled from "styled-components"
-import { Flipped } from "react-flip-toolkit"
-import anime from "animejs"
-import { BaseGridList } from "../BaseComponents"
-import { CardGrid } from "./Components"
-import iconBaseStyles from "../iconBaseStyles"
+import React, { PureComponent } from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import { Flipped } from 'react-flip-toolkit'
+import anime from 'animejs'
+import { BaseGridList } from '../components/BaseGridList'
+import { CardGrid } from '../components/CardGrid'
+import iconBaseStyles from '../iconBaseStyles'
 
 // using CSS inheritance here to allow the use of PureComponents
 // for better performance
@@ -106,35 +106,35 @@ class IconSetCard extends PureComponent {
   static propTypes = {
     setKey: PropTypes.string,
     highlightedIcons: PropTypes.array,
-    iconCount: PropTypes.number
+    iconCount: PropTypes.number,
   }
 
   onStart = (el, { previous: prevLocation, current: currentLocation }) => {
     if (
       prevLocation.location.pathname.match(this.props.setKey) &&
-      currentLocation.location.pathname === "/"
+      currentLocation.location.pathname === '/'
     ) {
-      ;[...el.querySelectorAll("[data-fade-in]")].forEach(
-        el => (el.style.opacity = "0")
+      ;[...el.querySelectorAll('[data-fade-in]')].forEach(
+        (el) => (el.style.opacity = '0')
       )
-      el.style.zIndex = "5"
+      el.style.zIndex = '5'
     }
   }
 
   onComplete = (el, { previous: prevLocation, current: currentLocation }) => {
     if (
-      currentLocation.location.pathname === "/" &&
+      currentLocation.location.pathname === '/' &&
       prevLocation.location.pathname.match(this.props.setKey)
     ) {
       anime({
-        targets: el.querySelectorAll("[data-fade-in]"),
+        targets: el.querySelectorAll('[data-fade-in]'),
         opacity: [0, 1],
         translateY: [15, 0],
         delay: (el, i) => i * 70 + 300,
-        easing: "easeOutSine",
-        duration: 350
+        easing: 'easeOutSine',
+        duration: 350,
       })
-      el.style.zIndex = ""
+      el.style.zIndex = ''
     }
   }
 
@@ -143,9 +143,9 @@ class IconSetCard extends PureComponent {
       targets: el,
       opacity: [0, 1],
       scale: [0.9, 1],
-      easing: "easeOutSine",
+      easing: 'easeOutSine',
       delay: index * 40,
-      duration: 400
+      duration: 400,
     })
   }
 
@@ -154,10 +154,10 @@ class IconSetCard extends PureComponent {
       targets: el,
       opacity: 0,
       scale: 0.9,
-      easing: "easeOutSine",
+      easing: 'easeOutSine',
       duration: 400,
       delay: index * 40,
-      complete: removeElement
+      complete: removeElement,
     })
   }
 
@@ -192,7 +192,7 @@ class IconSetCard extends PureComponent {
             <CardContent>
               <IndexGrid>
                 {icons
-                  .filter(obj => obj.highlighted)
+                  .filter((obj) => obj.highlighted)
                   .map(({ Icon, id }) => {
                     return (
                       <IndexListItem key={id}>
@@ -203,7 +203,7 @@ class IconSetCard extends PureComponent {
                     )
                   })}
               </IndexGrid>
-              <Description ref={el => (this.description = el)}>
+              <Description ref={(el) => (this.description = el)}>
                 <Flipped
                   flipId={`${setKey}-title`}
                   translate

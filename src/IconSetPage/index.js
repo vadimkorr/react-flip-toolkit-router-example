@@ -1,14 +1,14 @@
-import React, { useRef } from "react"
-import { Link } from "react-router-dom"
-import styled from "styled-components"
-import { Flipped } from "react-flip-toolkit"
+import React, { useRef } from 'react'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+import { Flipped } from 'react-flip-toolkit'
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons"
-import anime from "animejs"
-import iconDict from "../IconComponents"
-import { Contents } from "../BaseComponents"
-import IconBlock from "./IconBlock"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import anime from 'animejs'
+import iconDict from '../components/IconComponents'
+import { Contents } from '../components/Contents'
+import IconBlock from './IconBlock'
 
 const IconSetGrid = styled.ul`
   display: grid;
@@ -21,8 +21,7 @@ const IconSetGrid = styled.ul`
   grid-auto-flow: dense;
 `
 
-const InverseContainer = styled.div`
-`
+const InverseContainer = styled.div``
 
 const Background = styled.div`
   position: absolute;
@@ -55,41 +54,41 @@ const StyledLink = styled(Link)`
   }
 `
 
-const onComplete = el => {
+const onComplete = (el) => {
   // prevent scroll weirdness
   el.firstElementChild.style.backgroundColor = '#fff'
   anime({
-    targets: [...el.querySelectorAll("[data-fade-in]")],
+    targets: [...el.querySelectorAll('[data-fade-in]')],
     opacity: [0, 1],
     translateY: [15, 0],
     delay: (el, i) => i * 70 + 200,
-    easing: "easeOutSine",
-    duration: 250
+    easing: 'easeOutSine',
+    duration: 250,
   })
 }
 
-const onStart = el => {
-  ;[...el.querySelectorAll("[data-fade-in]")].forEach(
-    el => (el.style.opacity = "0")
+const onStart = (el) => {
+  ;[...el.querySelectorAll('[data-fade-in]')].forEach(
+    (el) => (el.style.opacity = '0')
   )
 }
 
-const onExit = el => {
+const onExit = (el) => {
   return anime({
     targets: [
-      ...el.querySelectorAll("[data-fade-in]"),
-      ...el.querySelectorAll("[data-icon-nonsample]")
+      ...el.querySelectorAll('[data-fade-in]'),
+      ...el.querySelectorAll('[data-icon-nonsample]'),
     ],
     opacity: 0,
-    easing: "easeOutSine",
+    easing: 'easeOutSine',
     duration: 350,
-    delay: anime.stagger(20)
+    delay: anime.stagger(20),
   }).finished
 }
 
 function IconSetPage({
   match: { params: { set, focusedIcon } = {} },
-  location
+  location,
 }) {
   const elementRef = useRef(null)
   return (
@@ -107,11 +106,11 @@ function IconSetPage({
                 <div data-fade-in>
                   <StyledLink
                     to={{
-                      pathname: "/",
+                      pathname: '/',
                       search: location.search,
                       state: {
-                        animate: () => onExit(elementRef.current)
-                      }
+                        animate: () => onExit(elementRef.current),
+                      },
                     }}
                   >
                     <FontAwesomeIcon icon={faArrowLeft} /> Back
