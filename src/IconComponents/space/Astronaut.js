@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Astronaut = props => (
-  <svg viewBox="0 0 64 56"   {...props}>
+const Astronaut = (props) => (
+  <svg viewBox="0 0 64 56" {...props}>
     <g fill="none" fillRule="evenodd">
       <path d="M24 43a4 4 0 1 1-8 0 4 4 0 0 1 8 0" fill="#f2b430" />
       <path d="M31 56h2V37h-2v19z" fill="#1d7ed0" />
@@ -48,6 +48,6 @@ const Astronaut = props => (
       <path d="M50 56h1V37h-1v19zm-37 0h1V37h-1v19z" fill="#1d7ed0" />
     </g>
   </svg>
-);
+)
 
-export default Astronaut;
+export default Astronaut

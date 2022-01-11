@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Comet = props => (
-  <svg viewBox="0 0 64 64"   {...props}>
+const Comet = (props) => (
+  <svg viewBox="0 0 64 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M48.5 64c-4.14 0-8.032-1.612-10.96-4.54L.146 22.854a.502.502 0 0 1 .708-.708l37.393 36.607A14.404 14.404 0 0 0 48.5 63c3.873 0 7.514-1.508 10.253-4.247A14.403 14.403 0 0 0 63 48.5c0-3.873-1.508-7.515-4.247-10.253L32.146 11.854a.502.502 0 0 1 .708-.708L59.46 37.54A15.396 15.396 0 0 1 64 48.5c0 4.141-1.612 8.032-4.54 10.96A15.398 15.398 0 0 1 48.5 64"
@@ -17,6 +17,6 @@ const Comet = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Comet;
+export default Comet

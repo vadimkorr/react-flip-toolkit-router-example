@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Vpn = props => (
-  <svg viewBox="0 0 32 30"   {...props}>
+const Vpn = (props) => (
+  <svg viewBox="0 0 32 30" {...props}>
     <path d="M30 26H2a2 2 0 0 0 0 4h28a2 2 0 0 0 0-4z" fill="#ccc" />
     <path d="M21 26H11a2 2 0 0 0 0 4h10a2 2 0 0 0 0-4z" fill="#4d4d4d" />
     <path fill="gray" d="M14 22h4v4h-4z" />
@@ -16,6 +16,6 @@ const Vpn = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default Vpn;
+export default Vpn

@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react'
 
-const Tape = props => (
+const Tape = (props) => (
   <svg
     viewBox="0 0 32.021 24"
-    style={{ width: "100%", height: "100%" }}
+    style={{ width: '100%', height: '100%' }}
     {...props}
   >
     <path

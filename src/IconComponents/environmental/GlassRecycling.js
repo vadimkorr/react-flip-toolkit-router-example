@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const GlassRecycling = props => (
-  <svg
-    xmlnsXlink="http://www.w3.org/1999/xlink"
-    viewBox='0 0 32 32'
-      {...props}
-  >
+const GlassRecycling = (props) => (
+  <svg xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" {...props}>
     <path fill="#75EA9C" d="M31 10s0 17-3 17H13c-3 0-3-17-3-17h21z" />
     <path fill="#A4FFBE" d="M31 5v5H10V5s0-4 4-4h13s4 0 4 4" />
     <path fill="#75EA9C" d="M14 1v5s0 2 2 2h9s2 0 2-2V1H14z" />
@@ -40,6 +36,6 @@ const GlassRecycling = props => (
       d="M4.5 24a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v4a.5.5 0 0 1-.5.5m0 4a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 1 0v2a.5.5 0 0 1-.5.5"
     />
   </svg>
-);
+)
 
-export default GlassRecycling;
+export default GlassRecycling

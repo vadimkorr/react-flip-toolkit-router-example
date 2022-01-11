@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const UsbStick = props => (
-  <svg viewBox="0 0 31.998 31.997"   {...props}>
+const UsbStick = (props) => (
+  <svg viewBox="0 0 31.998 31.997" {...props}>
     <path
       d="M31.704 8.792l-8.5-8.499a1.003 1.003 0 0 0-1.417 0l-8.499 8.499a1.003 1.003 0 0 0 0 1.417l8.499 8.499a1 1 0 0 0 1.417 0l8.5-8.499a1.003 1.003 0 0 0 0-1.417z"
       fill="#ccc"
@@ -21,6 +21,6 @@ const UsbStick = props => (
       fill="#f06eaa"
     />
   </svg>
-);
+)
 
-export default UsbStick;
+export default UsbStick

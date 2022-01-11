@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Invoicing = props => (
-  <svg viewBox="0 0 48 48"   {...props}>
+const Invoicing = (props) => (
+  <svg viewBox="0 0 48 48" {...props}>
     <path
       fillRule="evenodd"
       clipRule="evenodd"
@@ -13,6 +13,6 @@ const Invoicing = props => (
       d="M20 18H9a1 1 0 1 0 0 2h11a1 1 0 1 0 0-2zm0 4H9a1 1 0 1 0 0 2h11a1 1 0 1 0 0-2zm25 15H34V3a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v36a7 7 0 0 0 7 7h30a7 7 0 0 0 7-7v-1a1 1 0 0 0-1-1zM9 44a5 5 0 0 1-5-5V4h28v33H15a1 1 0 0 0-1 1v1a5 5 0 0 1-5 5zm30 0H13.895A6.98 6.98 0 0 0 16 39h28a5 5 0 0 1-5 5zm-9-31V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1zm-13-2a1 1 0 0 1-1 1H8V8h8a1 1 0 0 1 1 1v2zm11 1h-8a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h8v4zM16 27a1 1 0 0 0-1-1H9a1 1 0 1 0 0 2h6a1 1 0 0 0 1-1z"
     />
   </svg>
-);
+)
 
-export default Invoicing;
+export default Invoicing

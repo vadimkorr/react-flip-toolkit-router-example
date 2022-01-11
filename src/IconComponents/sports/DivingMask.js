@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const DivingMask = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const DivingMask = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#FFF"
       d="M83.551 21.834h-53c-9.941 0-18 8.059-18 18v4c0 9.941 8.059 18 18 18h16.915c1.752-4.114 5.831-7 10.585-7 4.754 0 8.833 2.886 10.585 7h14.915c9.941 0 18-8.059 18-18v-4c0-9.941-8.059-18-18-18z"
@@ -40,6 +40,6 @@ const DivingMask = props => (
       d="M101.551 45.834a3 3 0 0 1-3-3c0-8.271-6.729-15-15-15h-53c-8.272 0-15 6.729-15 15a3 3 0 1 1-6 0c0-11.58 9.421-21 21-21h53c11.579 0 21 9.42 21 21a3 3 0 0 1-3 3z"
     />
   </svg>
-);
+)
 
-export default DivingMask;
+export default DivingMask

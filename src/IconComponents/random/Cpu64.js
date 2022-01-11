@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Cpu64 = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Cpu64 = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M31 13a1 1 0 1 0 0-2h-6V9h6a1 1 0 1 0 0-2h-6V1a1 1 0 1 0-2 0v6h-2V1a1 1 0 1 0-2 0v6h-2V1a1 1 0 1 0-2 0v6h-2V1a1 1 0 1 0-2 0v6H9V1a1 1 0 1 0-2 0v6H1a1 1 0 1 0 0 2h6v2H1a1 1 0 1 0 0 2h6v2H1a1 1 0 1 0 0 2h6v2H1a1 1 0 1 0 0 2h6v2H1a1 1 0 1 0 0 2h6v6a1 1 0 1 0 2 0v-6h2v6a1 1 0 1 0 2 0v-6h2v6a1 1 0 1 0 2 0v-6h2v6a1 1 0 1 0 2 0v-6h2v6a1 1 0 1 0 2 0v-6h6a1 1 0 1 0 0-2h-6v-2h6a1 1 0 1 0 0-2h-6v-2h6a1 1 0 1 0 0-2h-6v-2h6zm-8-4v2h-2V9h2zm-4 0v2h-2V9h2zm-4 8v2h-2v-2h2zm-2-2v-2h2v2h-2zm4 2h2v2h-2v-2zm0-2v-2h2v2h-2zm-2-6v2h-2V9h2zM9 9h2v2H9V9zm0 4h2v2H9v-2zm0 4h2v2H9v-2zm0 6v-2h2v2H9zm4 0v-2h2v2h-2zm4 0v-2h2v2h-2zm6 0h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2v-2h2v2z"
       fillRule="evenodd"
@@ -23,6 +23,6 @@ const Cpu64 = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default Cpu64;
+export default Cpu64

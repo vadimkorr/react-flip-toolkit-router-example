@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const TestLabTubes = props => (
-  <svg viewBox="0 0 1010 977.049"   {...props}>
+const TestLabTubes = (props) => (
+  <svg viewBox="0 0 1010 977.049" {...props}>
     <path
       fill="#FFF"
       d="M188.444 719.183V9.673h121.613v709.51c0 33.578-27.25 60.85-60.807 60.85-33.599 0-60.806-27.272-60.806-60.85z"
@@ -39,6 +39,6 @@ const TestLabTubes = props => (
       <path d="M482.889 382.977h44.223v34.808h-44.223zM482.889 452.637h44.223v34.808h-44.223zM482.889 313.317h44.223v34.808h-44.223z" />
     </g>
   </svg>
-);
+)
 
-export default TestLabTubes;
+export default TestLabTubes

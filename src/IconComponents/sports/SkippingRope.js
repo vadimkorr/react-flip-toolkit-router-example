@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const SkippingRope = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const SkippingRope = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B8CBCD"
       d="M110.303 114.305c0 5.625-21.343 10.187-47.669 10.187-26.326 0-47.667-4.562-47.667-10.187 0-5.626 21.884-9.813 48.21-9.813 26.326-.001 47.126 4.187 47.126 9.813z"
@@ -35,6 +35,6 @@ const SkippingRope = props => (
       d="M110.977 82.703c-2.435 0-5.292-1.284-7.685-3.678-3.835-3.834-4.82-8.857-2.243-11.435a2 2 0 0 1 2.83 2.828c-.704.704-.168 3.367 2.242 5.778 2.41 2.41 5.074 2.946 5.778 2.243a2 2 0 1 1 2.828 2.828c-.969.97-2.284 1.436-3.75 1.436z"
     />
   </svg>
-);
+)
 
-export default SkippingRope;
+export default SkippingRope

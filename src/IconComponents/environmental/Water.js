@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Water = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Water = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="#67DDE0"
       d="M16 6s6 6 6 11c0 6-6 6-6 6s-6 0-6-6c0-5 6-11 6-11m-5 20c0 1.66-1.34 3-3 3s-3-1.34-3-3 1.34-3 3-3 3 1.34 3 3m1-21c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2m-4 9.5a2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1 5 0M24 26c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2 2 .9 2 2m6-7.5a2.5 2.5 0 0 1-5 0 2.5 2.5 0 0 1 5 0"
@@ -27,6 +27,6 @@ const Water = props => (
       d="M21 13c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3m0 5c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2"
     />
   </svg>
-);
+)
 
-export default Water;
+export default Water

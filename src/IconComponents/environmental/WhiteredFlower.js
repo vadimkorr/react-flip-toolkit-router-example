@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const WhiteredFlower = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const WhiteredFlower = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <circle fill="#FFD878" cx={16} cy={16} r={14} />
     <path
       fill="none"
@@ -30,6 +30,6 @@ const WhiteredFlower = props => (
       d="M12.01 22c1.679 0 3.07 1.79 3.717 2.791-.795.615-2.127 1.413-3.439 1.413-.334 0-.656-.052-.961-.152-1.729-.577-2.675-1.959-3.096-2.762.698-.506 2.058-1.29 3.779-1.29m0-1c-3 0-5 2-5 2s1 3 4 4c.427.143.855.204 1.275.204 2.405 0 4.528-2.009 4.725-2.204 0 0-2-4-5-4z"
     />
   </svg>
-);
+)
 
-export default WhiteredFlower;
+export default WhiteredFlower

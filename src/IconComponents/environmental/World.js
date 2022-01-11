@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const World = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const World = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <circle fill="#67DDE0" cx={16} cy={16} r={14} />
     <path
       fill="#75EA9C"
@@ -18,6 +18,6 @@ const World = props => (
       d="M14.5 2.5s-5 4-4 6 6-2 8-1 2.897 5.239-1 5c-4.115-.252-6.95-.983-8 2-1.888 5.366 5 4 4 7s.932 5.852 3 5c3.188-1.313.979-4.58 4-6 3.235-1.521 1-4 2-5s5-1.938 7 0"
     />
   </svg>
-);
+)
 
-export default World;
+export default World

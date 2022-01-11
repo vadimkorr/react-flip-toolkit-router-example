@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Billiards = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const Billiards = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <ellipse fill="#B8CBCD" cx={65.384} cy={114.604} rx={47.667} ry={10.186} />
     <path
       fill="#F7BB83"
@@ -102,6 +102,6 @@ const Billiards = props => (
       d="M67.604 22.412c-.357 0-.711-.096-1.023-.282l-7.146-4.254a1.998 1.998 0 0 1-.695-2.742l5.628-9.452a1.996 1.996 0 0 1 1.228-.915 1.995 1.995 0 0 1 1.515.22l7.145 4.255a2 2 0 0 1 .695 2.741l-5.627 9.451a2.001 2.001 0 0 1-1.72.978zm-4.404-6.95l3.708 2.208 3.581-6.014-3.708-2.208-3.581 6.014zM29.624 88.376a1.99 1.99 0 0 1-1.067-.311l-8.492-5.375a2 2 0 1 1 2.139-3.38l8.492 5.375a2 2 0 0 1-1.072 3.691z"
     />
   </svg>
-);
+)
 
-export default Billiards;
+export default Billiards

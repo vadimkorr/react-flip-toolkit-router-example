@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const AirportDrive = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const AirportDrive = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M30 0H2a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
       fill="#f1f1f1"
@@ -13,6 +13,6 @@ const AirportDrive = props => (
       fill="#4d4d4d"
     />
   </svg>
-);
+)
 
-export default AirportDrive;
+export default AirportDrive

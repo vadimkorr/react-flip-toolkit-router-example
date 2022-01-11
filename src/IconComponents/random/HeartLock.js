@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const HeartLock = props => (
-  <svg viewBox="0 0 26 32"   {...props}>
+const HeartLock = (props) => (
+  <svg viewBox="0 0 26 32" {...props}>
     <path
       d="M13 0C7.477 0 3 4.478 3 10v5h1.349c1.73 2.985 4.952 4.999 8.651 4.999s6.921-2.014 8.651-4.999H23v-5c0-5.522-4.478-10-10-10zm6 15h-2.688c-.949.63-2.087.999-3.313.999S10.637 15.63 9.688 15H7v-5a6 6 0 0 1 12 0v5z"
       fillRule="evenodd"
@@ -21,6 +21,6 @@ const HeartLock = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default HeartLock;
+export default HeartLock

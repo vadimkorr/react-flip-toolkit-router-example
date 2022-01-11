@@ -1,11 +1,7 @@
-import React from "react"
+import React from 'react'
 
-const BatteryCharging = props => (
-  <svg
-    viewBox="0 0 32 32"
-    {...props}
-    preserveAspectRatio="xMinYMin slice"
-  >
+const BatteryCharging = (props) => (
+  <svg viewBox="0 0 32 32" {...props} preserveAspectRatio="xMinYMin slice">
     <path
       fill="#FFD878"
       d="M30 10v3c0 1.1-.9 2-2 2v2c0 1.1-.9 2-2 2h-3.51c-.101-.33-.21-.66-.33-1-1.75-4.88-5.64-10.3-5.85-10.59-.19-.26-.49-.41-.81-.41s-.62.15-.81.41c-.21.29-4.1 5.71-5.85 10.59-.12.34-.23.67-.33 1H5c-1.1 0-2-.9-2-2v-2c-1.1 0-2-.9-2-2v-3c0-1.1.9-2 2-2V6c0-1.1.9-2 2-2h21c1.1 0 2 .9 2 2v2c1.1 0 2 .9 2 2z"

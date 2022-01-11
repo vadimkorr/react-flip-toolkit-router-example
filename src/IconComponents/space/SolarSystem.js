@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const SolarSystem = props => (
-  <svg viewBox="0 0 62 64"   {...props}>
+const SolarSystem = (props) => (
+  <svg viewBox="0 0 62 64" {...props}>
     <mask id="a" fill="#fff">
       <path d="M0 14c0 7.732 6.268 14 14 14s14-6.268 14-14c0-.42-.027-.833-.063-1.243-.281.15-.596.243-.937.243-.017 0-.034-.005-.051-.005.026.333.051.666.051 1.005 0 7.168-5.832 13-13 13S1 21.168 1 14 6.832 1 14 1c5.484 0 10.176 3.419 12.082 8.233.276-.144.585-.233.918-.233.023 0 .044.006.067.007C25.054 3.744 19.97 0 14 0 6.268 0 0 6.268 0 14z" />
     </mask>
@@ -69,6 +69,6 @@ const SolarSystem = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default SolarSystem;
+export default SolarSystem

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const ElectronicRecycling = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const ElectronicRecycling = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path fill="#FF61E1" d="M31 10s0 17-3 17H13c-3 0-3-17-3-17h21z" />
     <path fill="#FF80ED" d="M31 5v5H10V5s0-4 4-4h13s4 0 4 4" />
     <path fill="#FF61E1" d="M14 1v5s0 2 2 2h9s2 0 2-2V1H14z" />
@@ -23,6 +23,6 @@ const ElectronicRecycling = props => (
       d="M6 9h6V8H6v1zm3 20.25a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5M16 6H2a1 1 0 0 0-1 1v23a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1m0 23a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-3h14v3zm0-4H2V11h14v14zm0-15H2V8a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2z"
     />
   </svg>
-);
+)
 
-export default ElectronicRecycling;
+export default ElectronicRecycling

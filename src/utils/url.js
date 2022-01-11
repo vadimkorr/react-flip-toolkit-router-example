@@ -15,3 +15,16 @@ export const navigate = (history, location, set) => {
     search: location.search,
   })
 }
+
+const defaultState = {
+  filter: '',
+  display: 'grid',
+  sort: 'ascending',
+}
+
+export const getQueryParamState = (location) => {
+  return {
+    ...defaultState,
+    ...qs.parse(location.search.replace('?', '')),
+  }
+}

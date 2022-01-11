@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const CardScrill = props => (
-  <svg viewBox="0 0 32 22"   {...props}>
+const CardScrill = (props) => (
+  <svg viewBox="0 0 32 22" {...props}>
     <path
       d="M30 0H2a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
       fill="#9b7cab"
@@ -13,6 +13,6 @@ const CardScrill = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default CardScrill;
+export default CardScrill

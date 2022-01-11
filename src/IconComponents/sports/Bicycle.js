@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Bicycle = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const Bicycle = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B8CBCD"
       d="M113.468 99.521c0 5.625-21.592 9.813-47.917 9.813-26.326 0-47.417-4.188-47.417-9.813 0-5.626 21.341-10.188 47.667-10.188 26.325.001 47.667 4.562 47.667 10.188z"
@@ -56,6 +56,6 @@ const Bicycle = props => (
       d="M99.551 101.334c-13.234 0-24-10.767-24-24a2 2 0 0 1 4 0c0 11.028 8.972 20 20 20s20-8.972 20-20a2 2 0 0 1 4 0c0 13.233-10.766 24-24 24z"
     />
   </svg>
-);
+)
 
-export default Bicycle;
+export default Bicycle

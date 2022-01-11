@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const WashCold = props => (
-  <svg viewBox="0 0 31.99 22.018"   {...props}>
+const WashCold = (props) => (
+  <svg viewBox="0 0 31.99 22.018" {...props}>
     <path
       d="M25.995 1.018c-3 0-3 2-5 2s-2-2-5-2-3 2-5 2-2-2-5-2-5 3-5 3l5 17h20l5-17s-2-3-5-3z"
       fill="#87cfff"
@@ -19,6 +19,6 @@ const WashCold = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default WashCold;
+export default WashCold

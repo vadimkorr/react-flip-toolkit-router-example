@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const GloveFan = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const GloveFan = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <ellipse fill="#B8CBCD" cx={64.884} cy={115.147} rx={47.667} ry={10.186} />
     <path
       fill="#F6E89A"
@@ -45,6 +45,6 @@ const GloveFan = props => (
       d="M39.551 118.552a3 3 0 0 1-3-3V20.834c0-9.486 8.3-17.5 18.125-17.5a3 3 0 1 1 0 6c-6.572 0-12.125 5.266-12.125 11.5v94.718a3 3 0 0 1-3 3z"
     />
   </svg>
-);
+)
 
-export default GloveFan;
+export default GloveFan

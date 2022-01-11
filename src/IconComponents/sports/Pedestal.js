@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Pedestal = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const Pedestal = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B9E3ED"
       d="M88.178 29.491l-4.971-8.285c-.566-.943-1.929-1.715-3.029-1.715h-31c-1.1 0-2.463.771-3.029 1.715l-4.971 8.285"
@@ -57,6 +57,6 @@ const Pedestal = props => (
       d="M117.178 107.491h-105a3 3 0 1 1 0-6h105a3 3 0 1 1 0 6z"
     />
   </svg>
-);
+)
 
-export default Pedestal;
+export default Pedestal

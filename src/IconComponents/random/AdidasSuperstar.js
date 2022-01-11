@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const AdidasSuperstar = props => (
-  <svg viewBox="0 0 32 14"   {...props}>
+const AdidasSuperstar = (props) => (
+  <svg viewBox="0 0 32 14" {...props}>
     <path d="M15 0c-1 0-4 1-4 2s1 1 1 1l14 4s-9-7-11-7z" fill="#666" />
     <path
       d="M25 6c-6-3-9-5-10-5s-2 1-3 2-3 2-5 2-4-4-5-4-2 4-2 7v4l27-1s0-4-2-5z"
@@ -24,6 +24,6 @@ const AdidasSuperstar = props => (
       fill="#ccc"
     />
   </svg>
-);
+)
 
-export default AdidasSuperstar;
+export default AdidasSuperstar

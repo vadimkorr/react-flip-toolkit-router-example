@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Sputnik = props => (
-  <svg viewBox="0 0 64 42"   {...props}>
+const Sputnik = (props) => (
+  <svg viewBox="0 0 64 42" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M12 31a.501.501 0 0 1-.433-.75c.019-.034 1.933-3.438 1.933-10.25 0-6.698-1.917-10.222-1.937-10.257a.5.5 0 1 1 .873-.488c.085.15 2.064 3.76 2.064 10.745 0 7.11-1.983 10.605-2.068 10.75A.499.499 0 0 1 12 31"
@@ -21,6 +21,6 @@ const Sputnik = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Sputnik;
+export default Sputnik

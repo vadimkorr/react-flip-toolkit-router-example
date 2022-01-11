@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Ufo1 = props => (
-  <svg viewBox="0 0 64 64"   {...props}>
+const Ufo1 = (props) => (
+  <svg viewBox="0 0 64 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M32 8C14.327 8 0 13.373 0 20s14.327 12 32 12c17.673 0 32-5.373 32-12S49.673 8 32 8m0 1c18.543 0 31 5.688 31 11S50.543 31 32 31 1 25.312 1 20 13.457 9 32 9"
@@ -21,6 +21,6 @@ const Ufo1 = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Ufo1;
+export default Ufo1

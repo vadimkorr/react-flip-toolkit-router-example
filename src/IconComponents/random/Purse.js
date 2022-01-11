@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Purse = props => (
-  <svg viewBox="0 0 32 28"   {...props}>
+const Purse = (props) => (
+  <svg viewBox="0 0 32 28" {...props}>
     <path
       d="M25 5h-3.531l-1.843-1.843C19.859 2.83 20 2.433 20 2a2 2 0 0 0-4 0c0 .909.611 1.668 1.441 1.911L18.53 5h-5.07l1.084-1.084A1.995 1.995 0 0 0 14 0a2 2 0 0 0-2 2c0 .435.142.834.377 1.162L10.539 5H7a6 6 0 0 0-6 6v2a6 6 0 0 0 6 6h18a6 6 0 0 0 6-6v-2a6 6 0 0 0-6-6z"
       fillRule="evenodd"
@@ -19,6 +19,6 @@ const Purse = props => (
       fill="#75a64b"
     />
   </svg>
-);
+)
 
-export default Purse;
+export default Purse

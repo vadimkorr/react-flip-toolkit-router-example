@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Helmet = props => (
-  <svg viewBox="0 0 64 64"   {...props}>
+const Helmet = (props) => (
+  <svg viewBox="0 0 64 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M11.5 37.5a.5.5 0 0 1-.5-.5v-5c0-4.62 3.871-8.523 9.414-9.493a.505.505 0 0 1 .579.407.501.501 0 0 1-.407.579C15.531 24.376 12 27.875 12 32v5a.5.5 0 0 1-.5.5M60 34v8a4 4 0 0 0 0-8m1 1.171c1.164.413 2 1.525 2 2.829a3.006 3.006 0 0 1-2 2.829v-5.658M4 34a4 4 0 0 0 0 8v-8zm-1 1.171v5.658A3.006 3.006 0 0 1 1 38c0-1.304.836-2.416 2-2.829z"
@@ -34,6 +34,6 @@ const Helmet = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Helmet;
+export default Helmet

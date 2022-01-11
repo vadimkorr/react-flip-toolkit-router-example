@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Keyboard = props => (
-  <svg viewBox="0 0 32 20"   {...props}>
+const Keyboard = (props) => (
+  <svg viewBox="0 0 32 20" {...props}>
     <path
       d="M30 0H2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
       fill="#b3b3b3"
@@ -13,6 +13,6 @@ const Keyboard = props => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-export default Keyboard;
+export default Keyboard

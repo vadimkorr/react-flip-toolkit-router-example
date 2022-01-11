@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MenHoodie = props => (
-  <svg viewBox="0 0 30 32"   {...props}>
+const MenHoodie = (props) => (
+  <svg viewBox="0 0 30 32" {...props}>
     <path
       d="M7 30c0 1 2 2 8 2s8-1 8-2v-1H7v1zm-6 1c.5 0 3-.469 3-1v-2l-4 1s.5 2 1 2zm25-3v2c0 .531 2.5 1 3 1s1-2 1-2l-4-1z"
       fillRule="evenodd"
@@ -35,6 +35,6 @@ const MenHoodie = props => (
       fill="#75a64b"
     />
   </svg>
-);
+)
 
-export default MenHoodie;
+export default MenHoodie

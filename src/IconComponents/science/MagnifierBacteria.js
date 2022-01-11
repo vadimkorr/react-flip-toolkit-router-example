@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MagnifierBacteria = props => (
-  <svg viewBox="0 0 1010.002 1010"   {...props}>
+const MagnifierBacteria = (props) => (
+  <svg viewBox="0 0 1010.002 1010" {...props}>
     <path
       fill="#FFAB00"
       d="M317.39 598.771l93.761 93.79-296.984 297.035-93.761-93.85z"
@@ -31,6 +31,6 @@ const MagnifierBacteria = props => (
       d="M872.504 350.734c-11.269 0-20.405-9.136-20.405-20.404 0-84.246-68.545-152.79-152.801-152.79-11.268 0-20.404-9.137-20.404-20.405s9.136-20.404 20.404-20.404c106.753 0 193.61 86.847 193.61 193.6-.001 11.267-9.137 20.403-20.404 20.403z"
     />
   </svg>
-);
+)
 
-export default MagnifierBacteria;
+export default MagnifierBacteria

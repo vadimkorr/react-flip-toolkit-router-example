@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const PingPongRacket = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const PingPongRacket = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B8CBCD"
       d="M112.386 110.647c0 5.626-21.343 10.187-47.668 10.187-26.326 0-47.667-4.561-47.667-10.187 0-5.626 21.674-9.813 48-9.813 26.325 0 47.335 4.187 47.335 9.813z"
@@ -64,6 +64,6 @@ const PingPongRacket = props => (
       d="M80.551 66.834c-6.341 0-11.5-5.159-11.5-11.5s5.159-11.5 11.5-11.5 11.5 5.159 11.5 11.5-5.159 11.5-11.5 11.5zm0-19c-4.136 0-7.5 3.364-7.5 7.5s3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5-3.364-7.5-7.5-7.5z"
     />
   </svg>
-);
+)
 
-export default PingPongRacket;
+export default PingPongRacket

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Growing = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Growing = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="#75EA9C"
       d="M12 11c0 3-3.5 3-3.5 3S5 14 5 11s3.5-7 3.5-7S12 8 12 11zm9-3c0 3-3.5 3-3.5 3S14 11 14 8s3.5-7 3.5-7S21 5 21 8zm9 3c0 3-3.5 3-3.5 3S23 14 23 11s3.5-7 3.5-7S30 8 30 11z"
@@ -24,6 +24,6 @@ const Growing = props => (
       d="M26.5 4S23 8 23 11c0 2.29 2.04 2.83 3 2.96v8.54c0 .14.06.18.14.18.101 0 .221-.04.36-.04.28 0 .5.141.5-.14v-8.54c.96-.13 3-.67 3-2.96 0-3-3.5-7-3.5-7zm.5 8.96V10.5c0-.28-.22-.5-.5-.5s-.5.22-.5.5v2.46c-.76-.11-2-.51-2-1.96 0-1.68 1.44-3.98 2.5-5.4C27.56 7.02 29 9.32 29 11c0 1.45-1.24 1.85-2 1.96z"
     />
   </svg>
-);
+)
 
-export default Growing;
+export default Growing

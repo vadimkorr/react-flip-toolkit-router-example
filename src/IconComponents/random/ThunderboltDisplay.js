@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const ThunderboltDisplay = props => (
-  <svg viewBox="0 0 32 30"   {...props}>
+const ThunderboltDisplay = (props) => (
+  <svg viewBox="0 0 32 30" {...props}>
     <path
       d="M30 0H2a2 2 0 0 0-2 2v18a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
       fill="#4d4d4d"
@@ -23,6 +23,6 @@ const ThunderboltDisplay = props => (
       fill="#ccc"
     />
   </svg>
-);
+)
 
-export default ThunderboltDisplay;
+export default ThunderboltDisplay

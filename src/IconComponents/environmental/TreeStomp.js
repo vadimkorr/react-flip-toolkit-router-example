@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const TreeStomp = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const TreeStomp = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="#BF9171"
       d="M2 27s-2.001 3 13 3c15 0 15-3 15-3l-2-2V10H4v15l-2 2z"
@@ -19,6 +19,6 @@ const TreeStomp = props => (
       d="M16 7c7.117 0 11 1.982 11 3s-3.883 3-11 3-11-1.982-11-3 3.883-3 11-3m0-1C9.373 6 4 7.791 4 10s5.373 4 12 4 12-1.791 12-4-5.373-4-12-4"
     />
   </svg>
-);
+)
 
-export default TreeStomp;
+export default TreeStomp

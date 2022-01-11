@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Butterfly = props => (
-  <svg viewBox="0 0 32 24"   {...props}>
+const Butterfly = (props) => (
+  <svg viewBox="0 0 32 24" {...props}>
     <path
       d="M12 0a1 1 0 1 0 0 2c.552 0 1 .896 1 2v10h2V4c0-2.209-1.343-4-3-4zm8 0c-1.657 0-3 1.791-3 4v10h2V4c0-1.104.448-2 1-2a1 1 0 0 0 0-2z"
       fillRule="evenodd"
@@ -22,6 +22,6 @@ const Butterfly = props => (
     />
     <ellipse cx={16} cy={14} rx={2} ry={9} fill="#666" />
   </svg>
-);
+)
 
-export default Butterfly;
+export default Butterfly

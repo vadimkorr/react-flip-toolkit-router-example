@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MoonWalker1 = props => (
-  <svg viewBox="0 0 64 46"   {...props}>
+const MoonWalker1 = (props) => (
+  <svg viewBox="0 0 64 46" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M14 39a1 1 0 1 1-2 0 1 1 0 0 1 2 0m19 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m19 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
@@ -26,6 +26,6 @@ const MoonWalker1 = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default MoonWalker1;
+export default MoonWalker1

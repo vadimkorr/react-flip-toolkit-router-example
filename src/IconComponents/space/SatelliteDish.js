@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const SatelliteDish = props => (
-  <svg viewBox="0 0 44 64"   {...props}>
+const SatelliteDish = (props) => (
+  <svg viewBox="0 0 44 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M36.243 16.743a.502.502 0 0 1-.354-.854 5.458 5.458 0 0 0 1.61-3.89 5.46 5.46 0 0 0-1.61-3.888 5.462 5.462 0 0 0-3.89-1.611c-1.468 0-2.85.572-3.888 1.61a.5.5 0 0 1-.707-.706 6.509 6.509 0 0 1 9.193 0 6.509 6.509 0 0 1 0 9.193.502.502 0 0 1-.354.146"
@@ -46,6 +46,6 @@ const SatelliteDish = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default SatelliteDish;
+export default SatelliteDish

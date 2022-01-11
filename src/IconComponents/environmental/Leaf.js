@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Leaf = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Leaf = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M25 18c0 9-9.5 9-9.5 9S6 27 6 18s9.5-16 9.5-16S25 9 25 18z"
       fill="#75ea9c"
@@ -15,6 +15,6 @@ const Leaf = props => (
       fill="#4d5152"
     />
   </svg>
-);
+)
 
-export default Leaf;
+export default Leaf

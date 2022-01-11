@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Pen = props => (
-  <svg viewBox="0 0 31.985 32.017"   {...props}>
+const Pen = (props) => (
+  <svg viewBox="0 0 31.985 32.017" {...props}>
     <path
       d="M13 14.017l-7 1-6 16 8.187-8.187a1.97 1.97 0 0 1-.179-.816 1.995 1.995 0 1 1 1.995 1.995 1.97 1.97 0 0 1-.816-.179L1 32.017l16-6 1-7-5-5z"
       fillRule="evenodd"
@@ -14,6 +14,6 @@ const Pen = props => (
       fill="#666"
     />
   </svg>
-);
+)
 
-export default Pen;
+export default Pen

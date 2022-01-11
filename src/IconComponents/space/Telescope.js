@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Telescope = props => (
-  <svg viewBox="0 0 59 64"   {...props}>
+const Telescope = (props) => (
+  <svg viewBox="0 0 59 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M28.278 45.65l-5.929-2.372.372-.928 5.93 2.372-.373.928z"
@@ -42,6 +42,6 @@ const Telescope = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Telescope;
+export default Telescope

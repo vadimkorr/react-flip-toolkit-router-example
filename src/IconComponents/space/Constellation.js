@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Constellation = props => (
-  <svg viewBox="0 0 64 46"   {...props}>
+const Constellation = (props) => (
+  <svg viewBox="0 0 64 46" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M31 31a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 1c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2m25 8a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 1c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2M40 12a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 1c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2M2.5 1a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5m0 1C3.327 2 4 2.673 4 3.5S3.327 5 2.5 5 1 4.327 1 3.5 1.673 2 2.5 2M60 20a4 4 0 1 0 0 8 4 4 0 0 0 0-8m0 1c1.654 0 3 1.346 3 3s-1.346 3-3 3-3-1.346-3-3 1.346-3 3-3M28.5 0a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7m0 1C29.878 1 31 2.121 31 3.5S29.878 6 28.5 6A2.503 2.503 0 0 1 26 3.5C26 2.121 27.122 1 28.5 1"
@@ -13,6 +13,6 @@ const Constellation = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Constellation;
+export default Constellation

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Planet2 = props => (
-  <svg viewBox="0 0 64 54"   {...props}>
+const Planet2 = (props) => (
+  <svg viewBox="0 0 64 54" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M32 2C18.193 2 7 13.193 7 27s11.193 25 25 25 25-11.193 25-25S45.807 2 32 2m0 1c13.234 0 24 10.766 24 24S45.234 51 32 51 8 40.234 8 27 18.766 3 32 3"
@@ -25,6 +25,6 @@ const Planet2 = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Planet2;
+export default Planet2

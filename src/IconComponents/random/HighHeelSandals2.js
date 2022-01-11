@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const HighHeelSandals2 = props => (
-  <svg viewBox="0 0 32 28"   {...props}>
+const HighHeelSandals2 = (props) => (
+  <svg viewBox="0 0 32 28" {...props}>
     <path
       d="M27 20c-1 0-1.553.106-2 1.001-1 2-4 6-4 6h4s3-5 3-6S28 20 27 20zM17.975 3.282a.98.98 0 0 0-.689-1.199L5 0S0 3.001 0 8h3S2 4 5 2l11.781 1.975a.974.974 0 0 0 1.194-.693zM23 18c-1 0-1.293.294-2 1.001l-7 7 4 1s6-7 6-8S24 18 23 18z"
       fillRule="evenodd"
@@ -17,6 +17,6 @@ const HighHeelSandals2 = props => (
       fill="#666"
     />
   </svg>
-);
+)
 
-export default HighHeelSandals2;
+export default HighHeelSandals2

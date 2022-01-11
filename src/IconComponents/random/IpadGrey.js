@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const IpadGrey = props => (
-  <svg viewBox="0 0 21 32.001"   {...props}>
+const IpadGrey = (props) => (
+  <svg viewBox="0 0 21 32.001" {...props}>
     <path
       d="M19 0H2c-.896 0-2 1.042-2 2.001v28c0 .907 1.044 2 2 2h17c.95 0 1.999-1.024 2-2v-28C21 1.042 19.928 0 19 0z"
       fill="#ccc"
@@ -14,6 +14,6 @@ const IpadGrey = props => (
     />
     <circle cx={5} cy={4.999} r={1} fill="gray" />
   </svg>
-);
+)
 
-export default IpadGrey;
+export default IpadGrey

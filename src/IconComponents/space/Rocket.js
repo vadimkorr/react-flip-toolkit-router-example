@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Rocket = props => (
-  <svg viewBox="0 0 36 64"   {...props}>
+const Rocket = (props) => (
+  <svg viewBox="0 0 36 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M18 13c-4.054 0-6.136-1.009-6.222-1.052l.443-.896c.019.009 1.985.948 5.779.948 3.746 0 5.764-.941 5.783-.951l.435.901C24.129 11.993 21.998 13 18 13"
@@ -37,6 +37,6 @@ const Rocket = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Rocket;
+export default Rocket

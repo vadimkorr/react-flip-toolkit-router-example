@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Hdd = props => (
-  <svg viewBox="0 0 24 32"   {...props}>
+const Hdd = (props) => (
+  <svg viewBox="0 0 24 32" {...props}>
     <path
       d="M22 0H2a2 2 0 0 0-2 2v28a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"
       fill="#4d4d4d"
@@ -19,6 +19,6 @@ const Hdd = props => (
       fill="#f1f1f1"
     />
   </svg>
-);
+)
 
-export default Hdd;
+export default Hdd

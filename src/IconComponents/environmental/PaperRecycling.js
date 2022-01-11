@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const PaperRecycling = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const PaperRecycling = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path fill="#67DDE0" d="M31 10s0 17-3 17H13c-3 0-3-17-3-17h21z" />
     <path fill="#ACF0F2" d="M31 5v5H10V5s0-4 4-4h13s4 0 4 4" />
     <path fill="#67DDE0" d="M14 1v5s0 2 2 2h9s2 0 2-2V1H14z" />
@@ -22,6 +22,6 @@ const PaperRecycling = props => (
       d="M13 8H2C1 8 1 9 1 9v21s0 1 1 1h15s1 0 1-1V13l-5-5zm4 22H2v-1h15v1zm0-2H2v-1h15v1zm0-2H2V9h9v4s0 2 2 2h4v11zm0-12h-4c-.81 0-.99-.55-1-1V9h.59L17 13.41V14z"
     />
   </svg>
-);
+)
 
-export default PaperRecycling;
+export default PaperRecycling

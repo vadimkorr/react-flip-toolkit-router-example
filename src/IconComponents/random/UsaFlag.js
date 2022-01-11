@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const UsaFlag = props => (
-  <svg viewBox="0 0 30 32"   {...props}>
+const UsaFlag = (props) => (
+  <svg viewBox="0 0 30 32" {...props}>
     <path
       d="M16 7c-1.104 0-2 .447-2 1v16c0 .553.896 1 2 1 .188 0 14-1 14-1V6L16 7z"
       fill="#d46557"
@@ -34,6 +34,6 @@ const UsaFlag = props => (
       fill="#ccc"
     />
   </svg>
-);
+)
 
-export default UsaFlag;
+export default UsaFlag

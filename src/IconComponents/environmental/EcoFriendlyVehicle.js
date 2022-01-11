@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const EcoFriendlyVehicle = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const EcoFriendlyVehicle = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="#75EA9C"
       d="M13.96 14c0 4.15-4.47 5.54-6 5.9v3.6c0 .28-.22.5-.5.5s-.5-.22-.5-.5v-3.6c-1.53-.36-6-1.75-6-5.9 0-5 6.5-14 6.5-14s6.5 9 6.5 14"
@@ -31,6 +31,6 @@ const EcoFriendlyVehicle = props => (
       d="M16 28.5a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0 0 1h13a.5.5 0 0 0 .5-.5m16 0a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0 0 1h13a.5.5 0 0 0 .5-.5"
     />
   </svg>
-);
+)
 
-export default EcoFriendlyVehicle;
+export default EcoFriendlyVehicle

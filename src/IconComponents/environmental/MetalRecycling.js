@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MetalRecycling = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const MetalRecycling = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path d="M31 10s0 17-3 17H13c-3 0-3-17-3-17z" fill="#ffd878" />
     <path d="M31 5v5H10V5s0-4 4-4h13s4 0 4 4" fill="#ffe4a9" />
     <path d="M14 1v5s0 2 2 2h9s2 0 2-2V1z" fill="#ffd878" />
@@ -20,6 +20,6 @@ const MetalRecycling = props => (
       <path d="M16 30H2V13h14zm1-18H1v19h16z" />
     </g>
   </svg>
-);
+)
 
-export default MetalRecycling;
+export default MetalRecycling

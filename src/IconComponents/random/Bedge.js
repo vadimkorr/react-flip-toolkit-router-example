@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Bedge = props => (
-  <svg viewBox="0 0 32 24"   {...props}>
+const Bedge = (props) => (
+  <svg viewBox="0 0 32 24" {...props}>
     <path
       d="M30 2.001H2A2 2 0 0 0 0 4v18a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V4a2 2 0 0 0-2-1.999z"
       fill="#ccc"
@@ -22,6 +22,6 @@ const Bedge = props => (
       fill="#48a0dc"
     />
   </svg>
-);
+)
 
-export default Bedge;
+export default Bedge

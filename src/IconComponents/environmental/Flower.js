@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Flower = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Flower = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="none"
       stroke="#4D5152"
@@ -27,6 +27,6 @@ const Flower = props => (
       d="M2 19.879s2.829 0 4.243 1.414c1.415 1.414 0 2.828 0 2.828s-.628.629-1.467.629c-.419 0-.891-.157-1.362-.629C2 22.707 2 19.879 2 19.879m0-1H1v1c0 .332.048 3.29 1.707 4.949.762.762 1.546.922 2.069.922 1.217 0 2.08-.827 2.174-.922.087-.087.533-.557.772-1.274.354-1.063.08-2.116-.772-2.968-1.659-1.659-4.618-1.707-4.95-1.707z"
     />
   </svg>
-);
+)
 
-export default Flower;
+export default Flower

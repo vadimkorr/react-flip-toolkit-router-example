@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Observatory = props => (
-  <svg viewBox="0 0 56 64"   {...props}>
+const Observatory = (props) => (
+  <svg viewBox="0 0 56 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path d="M24 61h8V49h-8v12zm1-1h6V50h-6v10z" fill="#1d7ed0" />
       <path d="M0 64h56v-4H0v4zm1-1h54v-2H1v2z" fill="#f2b430" />
@@ -15,6 +15,6 @@ const Observatory = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Observatory;
+export default Observatory

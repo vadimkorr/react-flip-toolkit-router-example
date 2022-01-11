@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Cutter = props => (
-  <svg viewBox="0 0 30 32"   {...props}>
+const Cutter = (props) => (
+  <svg viewBox="0 0 30 32" {...props}>
     <path fill="#d9d9d9" d="M19 3L0 22v10L24 8z" />
     <path
       d="M17.255 1.256C16.005 2.005 14.998 3.002 14 4L4 14v6L20 4l-2.745-2.744zM22.91 6.91L23 7 7 23h6l5-5c1-1 3-2 4-2 2.72 0 5.119-1.36 6.565-3.436L22.91 6.91z"
@@ -15,6 +15,6 @@ const Cutter = props => (
     />
     <path fill="#999" d="M13 11l5-5 3 3-5 5z" />
   </svg>
-);
+)
 
-export default Cutter;
+export default Cutter

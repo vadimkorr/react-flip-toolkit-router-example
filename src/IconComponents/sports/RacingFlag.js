@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const RacingFlag = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const RacingFlag = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B8CBCD"
       d="M114.095 111.679c0 5.625-21.592 9.813-47.917 9.813-26.326 0-47.418-4.188-47.418-9.813 0-5.626 21.341-10.188 47.667-10.188 26.325 0 47.668 4.562 47.668 10.188z"
@@ -47,6 +47,6 @@ const RacingFlag = props => (
       d="M80.547 111.492a3.002 3.002 0 0 1-2.71-1.71L54.564 60.984a3 3 0 1 1 5.417-2.582L83.253 107.2a3 3 0 0 1-2.706 4.292z"
     />
   </svg>
-);
+)
 
-export default RacingFlag;
+export default RacingFlag

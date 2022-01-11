@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MoonPhases = props => (
-  <svg viewBox="0 0 64 64"   {...props}>
+const MoonPhases = (props) => (
+  <svg viewBox="0 0 64 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M32 0c-3.85 0-7 3.15-7 7s3.15 7 7 7 7-3.15 7-7-3.15-7-7-7m0 1c3.308 0 6 2.692 6 6s-2.692 6-6 6-6-2.692-6-6 2.692-6 6-6"
@@ -34,6 +34,6 @@ const MoonPhases = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default MoonPhases;
+export default MoonPhases

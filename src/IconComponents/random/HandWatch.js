@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const HandWatch = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const HandWatch = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M20 3c-1 0-2 2-4 2L5 16c0 2-2 3-2 4s8 9 9 9 2-2 4-2l11-11c0-2 2-3 2-4s-8-9-9-9z"
       fill="#ccc"
@@ -25,6 +25,6 @@ const HandWatch = props => (
       fill="#999"
     />
   </svg>
-);
+)
 
-export default HandWatch;
+export default HandWatch

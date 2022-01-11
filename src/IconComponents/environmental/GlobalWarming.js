@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const GlobalWarming = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const GlobalWarming = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <circle fill="#FFD878" cx={17} cy={15} r={15} />
     <circle fill="#67DDE0" cx={17} cy={15} r={14} />
     <path
@@ -35,6 +35,6 @@ const GlobalWarming = props => (
       d="M10 22s2 3 2 6-1 3-3 3c0 0-3 0-2-4 .767-3.067 3-5 3-5m.203-1.498l-.857.742c-.101.087-2.481 2.178-3.316 5.514-.429 1.715-.268 3.069.478 4.024C7.432 31.966 8.842 32 9 32c2.342 0 4-.287 4-4 0-3.266-2.08-6.422-2.168-6.555l-.629-.943z"
     />
   </svg>
-);
+)
 
-export default GlobalWarming;
+export default GlobalWarming

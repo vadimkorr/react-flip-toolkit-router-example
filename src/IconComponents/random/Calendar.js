@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Calendar = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Calendar = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path d="M0 10v20a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V10H0z" fill="#ccc" />
     <path d="M2 10.001v19a1 1 0 0 0 1 1h26a1 1 0 0 0 1-1v-19H2z" fill="#fff" />
     <path
@@ -17,6 +17,6 @@ const Calendar = props => (
       fill="#ed7261"
     />
   </svg>
-);
+)
 
-export default Calendar;
+export default Calendar

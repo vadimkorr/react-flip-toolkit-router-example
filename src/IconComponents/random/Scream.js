@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Scream = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Scream = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M30 23.999c-.521-.52-3.528-2.302-6.11-3.791.036-.069.081-.15.11-.209 1-2 1-6.999 1-9.999 0-4-2.094-10-9-10S7 6 7 10c0 3 0 7.999 1 9.999.029.059.074.14.11.209-2.583 1.488-5.59 3.271-6.11 3.791C.12 25.88 0 32 0 32h32s-.12-6.12-2-8.001z"
       fillRule="evenodd"
@@ -24,6 +24,6 @@ const Scream = props => (
       fill="#666"
     />
   </svg>
-);
+)
 
-export default Scream;
+export default Scream

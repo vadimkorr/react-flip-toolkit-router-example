@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Balloons = props => (
-  <svg viewBox="0 0 28 31.999"   {...props}>
+const Balloons = (props) => (
+  <svg viewBox="0 0 28 31.999" {...props}>
     <path
       d="M17.35 26.026c-.458-.112-.927.128-1.047.538l-1.301 4.454c-.12.41.155.833.613.946.458.112.928-.128 1.047-.538l1.302-4.454c.119-.409-.156-.833-.614-.946z"
       fill="#ccc"
@@ -27,6 +27,6 @@ const Balloons = props => (
       fill="#d46557"
     />
   </svg>
-);
+)
 
-export default Balloons;
+export default Balloons

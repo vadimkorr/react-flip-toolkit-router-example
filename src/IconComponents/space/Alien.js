@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Alien = props => (
-  <svg viewBox="0 0 54 64"   {...props}>
+const Alien = (props) => (
+  <svg viewBox="0 0 54 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M27.003 0C12.113 0 0 11.932 0 26.6 0 40.581 16.908 64 27.003 64 37.096 64 54 40.581 54 26.6 54 11.932 41.889 0 27.003 0m0 1C41.338 1 53 12.484 53 26.6 53 39.867 36.479 63 27.003 63 17.525 63 1 39.867 1 26.6 1 12.484 12.665 1 27.003 1"
@@ -17,6 +17,6 @@ const Alien = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Alien;
+export default Alien

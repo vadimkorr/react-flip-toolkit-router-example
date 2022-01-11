@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const RibbonBow = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const RibbonBow = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M3 28h4l2 4 7-18-3-2L3 28zm16-16l-3 2 7 18 2-4h4L19 12z"
       fillRule="evenodd"
@@ -25,6 +25,6 @@ const RibbonBow = props => (
       fill="#ba594c"
     />
   </svg>
-);
+)
 
-export default RibbonBow;
+export default RibbonBow

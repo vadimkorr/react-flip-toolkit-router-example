@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Genetics = props => (
-  <svg viewBox="0 0 1010 917.877"   {...props}>
+const Genetics = (props) => (
+  <svg viewBox="0 0 1010 917.877" {...props}>
     <path
       fill="#43525B"
       d="M434.632 779.693H150.646L8.655 533.793l141.993-245.94h283.985l141.953 245.94-141.953 245.9zm-260.416-40.837h236.846l118.384-205.063L411.062 328.69H174.216L55.792 533.793l118.424 205.063z"
@@ -69,6 +69,6 @@ const Genetics = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default Genetics;
+export default Genetics

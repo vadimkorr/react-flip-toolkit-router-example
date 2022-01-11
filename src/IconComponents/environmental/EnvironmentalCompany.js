@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const EnvironmentalCompany = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const EnvironmentalCompany = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       d="M22 22.67V30H2V14h4V6h8v12h2.33c.12.36.27.69.45 1 .479.82 1.13 1.48 1.84 2 .12.1.25.19.38.27.67.45 1.37.79 2 1.04.36.15.7.27 1 .36"
       fill="#aaa"
@@ -22,6 +22,6 @@ const EnvironmentalCompany = props => (
       fill="#4d5152"
     />
   </svg>
-);
+)
 
-export default EnvironmentalCompany;
+export default EnvironmentalCompany

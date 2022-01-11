@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const HazardousMaterials = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const HazardousMaterials = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path d="M31 10s0 17-3 17H13c-3 0-3-17-3-17z" fill="#ef6565" />
     <path d="M31 5v5H10V5s0-4 4-4h13s4 0 4 4" fill="#f27c7c" />
     <path d="M14 1v5s0 2 2 2h9s2 0 2-2V1z" fill="#ef6565" />
@@ -22,6 +22,6 @@ const HazardousMaterials = props => (
       fill="#4d5152"
     />
   </svg>
-);
+)
 
-export default HazardousMaterials;
+export default HazardousMaterials

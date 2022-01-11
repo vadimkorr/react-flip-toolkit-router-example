@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Sun = props => (
-  <svg viewBox="0 0 32 32"   {...props}>
+const Sun = (props) => (
+  <svg viewBox="0 0 32 32" {...props}>
     <path
       fill="#FFD878"
       d="M30 16l-4 4v6h-6l-4 4-4-4H6v-6l-4-4 4-4V6h6l4-4 4 4h6v6z"
@@ -16,6 +16,6 @@ const Sun = props => (
       d="M16 10c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6m0-1a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"
     />
   </svg>
-);
+)
 
-export default Sun;
+export default Sun

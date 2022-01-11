@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const ShuttleLaunch = props => (
-  <svg viewBox="0 0 40 64"   {...props}>
+const ShuttleLaunch = (props) => (
+  <svg viewBox="0 0 40 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path
         d="M36.07 63.704L24.297 54.07l.632-.774 11.774 9.633-.633.774z"
@@ -50,6 +50,6 @@ const ShuttleLaunch = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default ShuttleLaunch;
+export default ShuttleLaunch

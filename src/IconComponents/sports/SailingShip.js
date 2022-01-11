@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const SailingShip = props => (
-  <svg viewBox="0 0 128 128"   {...props}>
+const SailingShip = (props) => (
+  <svg viewBox="0 0 128 128" {...props}>
     <path
       fill="#B8CBCD"
       d="M112.179 115.012c0 5.625-21.01 9.813-47.335 9.813-26.326 0-48-4.188-48-9.813 0-5.626 21.341-10.188 47.667-10.188 26.325.001 47.668 4.562 47.668 10.188z"
@@ -72,6 +72,6 @@ const SailingShip = props => (
       d="M104.844 92.825a2.998 2.998 0 0 1-2.052-.81c-5.855-5.486-16.992-14.19-21.948-14.19-2.426 0-6.677 1.348-7.975 1.819a3 3 0 0 1-4.025-2.819v-46a3 3 0 0 1 5.618-1.464l33 59a2.999 2.999 0 0 1-2.618 4.464zm-24-21c3.959 0 9.097 2.7 13.795 5.901L74.844 42.333v30.432c1.89-.492 4.126-.94 6-.94z"
     />
   </svg>
-);
+)
 
-export default SailingShip;
+export default SailingShip

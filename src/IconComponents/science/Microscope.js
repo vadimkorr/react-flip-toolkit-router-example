@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const Microscope = props => (
-  <svg viewBox="0 0 632.819 1010.001"   {...props}>
+const Microscope = (props) => (
+  <svg viewBox="0 0 632.819 1010.001" {...props}>
     <path
       fill="#FFAB00"
       d="M490.027 418.002l23.326 56.764-109.908 68.546-36.11-44.437"
@@ -32,6 +32,6 @@ const Microscope = props => (
       <path d="M297.866 278.093l31.655-19.6 15.793 25.508-31.655 19.6zM297.927 207.403l-31.673 19.6 15.791 25.527 31.672-19.6zM376.899 335.057l-15.764-25.528-31.7 19.565 15.774 25.526z" />
     </g>
   </svg>
-);
+)
 
-export default Microscope;
+export default Microscope

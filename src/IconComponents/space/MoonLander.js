@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
-const MoonLander = props => (
-  <svg viewBox="0 0 64 64"   {...props}>
+const MoonLander = (props) => (
+  <svg viewBox="0 0 64 64" {...props}>
     <g fill="none" fillRule="evenodd">
       <path d="M13 49h38v-6H13v6zm1-1h36v-4H14v4z" fill="#f2b430" />
       <path
@@ -57,6 +57,6 @@ const MoonLander = props => (
       />
     </g>
   </svg>
-);
+)
 
-export default MoonLander;
+export default MoonLander
